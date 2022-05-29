@@ -16,7 +16,7 @@ sun_web_config = { 'full_name': 'Sunil Kumar Behl',\
  }
 
 def run_cookiecutter():
-    template = 'gh:cookiecutter/cookiecutter-django'
+    template = 'gh:cookiecutter-flask/cookiecutter-flask.git'
     project_dir = cookiecutter(template, no_input=True, extra_context = sun_web_config)
     print(f'Project generated in { project_dir }' )
 
