@@ -10,8 +10,8 @@ sun_web_config = { 'full_name': 'Sunil Kumar Behl',\
  'app_name' : 'webapp',\
  'project_short_description' : 'my flask project',\
  'use_pipenv' : 'n',\ 
- 'python_version' : ,\
- 'node_version' : ,\
+ 'python_version' : None,\
+ 'node_version' : None,\
  'use_heroku' : 'y',\
  }
 
